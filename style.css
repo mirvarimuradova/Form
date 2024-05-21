@@ -1,0 +1,84 @@
+*{
+box-sizing: border-box;
+}
+body{
+    background-color: #FEB893;
+    font-family: "Roboto", sans-serif;
+}
+.form_div{
+    height: 530px;
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 30px  auto;
+    width: 520px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form_header{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.text1{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.form_options{
+    background-color: #EFF3FF;
+    border: 1px solid #EFF3FF;
+    border-radius:  15px;
+    height: 25px;
+    width: 450px;
+}
+.form_option{
+    background-color: #EFF3FF;
+    border: 1px solid #EFF3FF;
+    border-radius:  15px;
+    height: 25px;
+    width: 420px ;
+}
+.name{
+    background-color: #EFF3FF;
+    border: 1px solid #EFF3FF;
+    border-radius:  15px;
+    height: 25px;
+    width: 222px;
+}
+.submit{
+   position: relative;
+   left: 40%;
+   top: 20px;
+    height: 30px;
+    width: 100px ;
+    color: #fff;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 15px;
+}
+.submit:hover{
+    background-color: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+}
+.red{
+    color: red;
+}
+.form_name{
+     margin-left: 3px;
+    font-size: 12px;
+    color: #D7D7D7;
+}
+.form_names{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 60px;
+   position: absolute;
+   left: 42%;
+   top: 13px;
+}
